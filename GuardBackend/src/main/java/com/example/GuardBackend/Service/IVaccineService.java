@@ -1,6 +1,6 @@
 package com.example.GuardBackend.Service;
 
-import com.example.GuardBackend.Entity.Vaccine;
+import com.example.GuardBackend.DTO.Vaccine;
 
 import java.util.List;
 

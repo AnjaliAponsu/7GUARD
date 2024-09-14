@@ -1,6 +1,6 @@
 package com.example.GuardBackend.Repository;
 
-import com.example.GuardBackend.Entity.Vaccine;
+import com.example.GuardBackend.DTO.Vaccine;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

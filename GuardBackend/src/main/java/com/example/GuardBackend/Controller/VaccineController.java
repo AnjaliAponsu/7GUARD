@@ -1,6 +1,6 @@
 package com.example.GuardBackend.Controller;
 
-import com.example.GuardBackend.Entity.Vaccine;
+import com.example.GuardBackend.DTO.Vaccine;
 import com.example.GuardBackend.Service.IVaccineService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -14,7 +14,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class VaccineController {
     private final IVaccineService vaccineService;
-    @GetMapping("/viewImportanceOfVaccine")
+    @GetMapping("/viewImpOfVaccine")
     public ResponseEntity <List<Vaccine>> getVaccines(){
         return new ResponseEntity<>(vaccineService.getVaccines(), HttpStatus.FOUND);
     }
@@ -23,7 +23,7 @@ public class VaccineController {
     public Vaccine addVaccine(@RequestBody Vaccine vaccine){
         return vaccineService.addVaccine(vaccine);
     }
-    @PutMapping("/updateimpOfVaccine/{id}")
+    @PutMapping("/updateImpOfVaccine/{id}")
     public Vaccine updateVaccine(@RequestBody Vaccine vaccine,@PathVariable Long id){
         return vaccineService.updateVaccine(vaccine, id);
     }

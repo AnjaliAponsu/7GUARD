@@ -1,4 +1,4 @@
-package com.example.GuardBackend.Entity;
+package com.example.GuardBackend.DTO;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
