@@ -2,6 +2,9 @@ package com.example.GuardBackend.Service;
 
 import com.example.GuardBackend.DTO.Vaccine;
 import com.example.GuardBackend.Repository.VaccineRepository;
+import com.example.GuardBackend.ServiceImplementation.IVaccineService;
+import com.example.GuardBackend.ServiceImplementation.VaccineAlreadyExistsException;
+import com.example.GuardBackend.ServiceImplementation.VaccineNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -9,7 +12,7 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class VaccineService implements IVaccineService{
+public class VaccineService implements IVaccineService {
     private final VaccineRepository vaccineRepository;
 
     @Override

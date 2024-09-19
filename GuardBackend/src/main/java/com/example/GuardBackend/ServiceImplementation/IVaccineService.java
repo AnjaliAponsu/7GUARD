@@ -1,4 +1,4 @@
-package com.example.GuardBackend.Service;
+package com.example.GuardBackend.ServiceImplementation;
 
 import com.example.GuardBackend.DTO.Vaccine;
 

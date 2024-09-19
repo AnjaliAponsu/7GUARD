@@ -1,7 +1,7 @@
 package com.example.GuardBackend.Controller;
 
 import com.example.GuardBackend.DTO.Vaccine;
-import com.example.GuardBackend.Service.IVaccineService;
+import com.example.GuardBackend.ServiceImplementation.IVaccineService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
