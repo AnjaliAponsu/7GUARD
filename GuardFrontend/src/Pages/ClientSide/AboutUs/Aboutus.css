@@ -1,0 +1,61 @@
+.Boxa1{
+        background:url('C:\Users\newuser\Desktop\7guard\GuardFrontEnd\7guard\src\Component\Pictures\5.png');
+        margin-right: auto;
+        margin-left: auto; 
+        width: 90%; 
+        max-width: 1300px; 
+        padding: 20px; 
+        height: 300px;
+        box-sizing: border-box;
+        color: rgb(231, 7, 130);
+        background-size: cover;   
+}
+.ha1{
+
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 800px;
+    margin-top: 70px;
+}
+.Boxa2{
+    background-color: pink;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%; 
+    height: 400px;
+    max-width: 1300px; 
+    box-sizing: border-box;
+}
+.ha2{
+
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 500px;
+    color: rgb(231, 7, 130);  
+}
+.par1{
+    margin-left: 500px;
+    margin-right: 50px;
+}
+.Boxa3{
+    
+    background:url('C:\Users\newuser\Desktop\7guard\GuardFrontEnd\7guard\src\Component\Pictures\1.jpg');
+    margin-right: auto;
+    margin-left: auto; 
+    width: 90%; 
+    max-width: 1300px; 
+    padding: 20px; 
+    background-repeat: no-repeat;
+	background-size: cover;
+    box-sizing: border-box;
+    height: 300px;
+}
+.ha3{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(231, 7, 130);
+}
+.ta5{
+    margin-left: 13%;
+    margin-top: 15%;         
+}
