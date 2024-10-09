@@ -64,6 +64,17 @@
 			<artifactId>jakarta.persistence-api</artifactId>
 			<version>3.1.0</version> <!-- Use the appropriate version -->
 		</dependency>
+		<dependency>
+			<groupId>org.hibernate.validator</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>7.0.0.Final</version> <!-- Make sure the version aligns with your project dependencies -->
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish</groupId>
+			<artifactId>jakarta.el</artifactId>
+			<version>4.0.2</version> <!-- Required for Hibernate Validator -->
+		</dependency>
+
 
 	</dependencies>
 
