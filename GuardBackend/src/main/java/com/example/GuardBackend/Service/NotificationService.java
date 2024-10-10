@@ -19,7 +19,7 @@ public class NotificationService {
         this.adviceService = adviceService;
     }
 
-    public void sendAdviceNotification(String chdr_id) {
+    public String sendAdviceNotification(String chdr_id) {
         User user = userService.getUserById(chdr_id).orElseThrow();
         String category;
 
@@ -41,5 +41,7 @@ public class NotificationService {
         for (Advice advice : advices) {
             System.out.println("Sending advice to user " + chdr_id + ": " + advice.getMessage());
         }
+
+        return "Notification sent successfully to user with chdr_id: " + chdr_id;
     }
 }
