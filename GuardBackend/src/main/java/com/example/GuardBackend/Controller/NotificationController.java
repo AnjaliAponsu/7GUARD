@@ -20,6 +20,6 @@ public class NotificationController {
     @PostMapping("/send/{chdr_id}")
     public ResponseEntity<String> sendAdviceNotification(@PathVariable String chdr_id) {
         String message = notificationService.sendAdviceNotification(chdr_id);
-        return ResponseEntity.ok(message);  // Returning 200 OK with message
+        return ResponseEntity.ok(message);
     }
 }

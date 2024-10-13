@@ -26,7 +26,7 @@ public class AdviceController {
     }
 
     // Admin can get all advice
-    @GetMapping
+    @GetMapping("/getAllAdvice")
     public List<Advice> getAllAdvice() {
         return adviceService.getAllAdvice();
     }
