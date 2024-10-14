@@ -40,15 +40,24 @@ public class AdviceController {
     }
 
     // Admin can update advice
-    @PutMapping("/{id}")
+    @PutMapping("/update/{id}")
     public ResponseEntity<Advice> updateAdvice(@PathVariable Long id, @RequestBody Advice advice) {
         return ResponseEntity.ok(adviceService.updateAdvice(id, advice));
     }
 
     // Admin can delete advice
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/delete/{id}")
     public ResponseEntity<Void> deleteAdvice(@PathVariable Long id) {
         adviceService.deleteAdvice(id);
         return ResponseEntity.noContent().build();
+    }
+
+    @GetMapping("/category/{category}")
+    public ResponseEntity<List<Advice>> getAdviceByCategory(@PathVariable String category) {
+        List<Advice> advices = adviceService.getAdviceByCategory(category);
+        if (advices.isEmpty()) {
+            return ResponseEntity.noContent().build(); // Return 204 if no advice is found
+        }
+        return ResponseEntity.ok(advices);
     }
 }
