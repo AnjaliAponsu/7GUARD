@@ -17,7 +17,7 @@ public class NotificationController {
         this.notificationService = notificationService;
     }
 
-    // Automatically send advice based on user BMI
+    // Automatically send advice based on user BMI and age
     @PostMapping("/send/{chdr_id}")
     public ResponseEntity<String> sendAdviceNotification(@PathVariable String chdr_id) {
         String message = notificationService.sendAdviceNotification(chdr_id);
