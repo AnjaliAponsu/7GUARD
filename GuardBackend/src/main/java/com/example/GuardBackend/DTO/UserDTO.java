@@ -12,4 +12,5 @@ public class UserDTO {
     private double height;
     private double weight;
     private String date;
+    private int age;
 }

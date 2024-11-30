@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 public class User {
     @Id
     @Column(name = "chdr_id")
-    private String chdr_id; // Changed from chdrId to chdr_id
+    private String chdr_id;
     @Column(name="height")
     private double height;
     @Column(name="weight")
@@ -23,4 +23,6 @@ public class User {
     private String date;
     @Column(name = "bmi")
     private double bmi;
+    @Column(name= "age")
+    private int age;
 }

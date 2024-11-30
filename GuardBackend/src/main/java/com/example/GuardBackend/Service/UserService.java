@@ -36,6 +36,7 @@ public class UserService {
         user.setWeight(userDetails.getWeight());
         user.setDate(userDetails.getDate());
         user.setBmi(userDetails.getBmi());
+        user.setAge(userDetails.getAge());
         return userRepository.save(user);
     }
 
