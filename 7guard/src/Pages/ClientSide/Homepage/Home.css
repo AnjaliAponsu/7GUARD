@@ -1,0 +1,105 @@
+.Boxa4{  
+    display: flex;     
+    background:url('../../../Component/Pictures/4.png'); 
+    height: 350px;
+    box-sizing: border-box;
+    color: rgb(255, 0, 106);
+    background-size: cover;
+    flex: none;
+    object-fit: contain;
+}
+.ha1{
+    font-size: 70px;
+    font-weight: bold;
+    margin-left: 800px;
+    margin-top: 70px;
+    animation-delay: 1s
+}
+
+.ha5{ 
+    font-size: 80px;
+    color: rgb(255, 0, 106);
+    padding: 5 px;
+}
+
+
+
+
+
+.ha6{
+    font-size: 30px;
+    margin-left: 800px;
+    color: rgba(255, 0, 106, 0.705);
+}
+
+.image-container {
+    background: url('../../../Component/Pictures/10.png') no-repeat center;
+    
+    height: 40%;
+    min-height: 500px; /* Adjust based on your design */
+    width: 100%; /* Ensure it spans the full column */
+    border-radius: 10px; 
+    margin-right: 20%    
+  }
+
+
+  .team-item img {
+    position: relative;
+    top: 0;
+    transition: .5s;
+}
+
+.team-item:hover img {
+    top: -30px;
+}
+
+.team-item .team-text {
+    position: relative;
+    height: 50px;
+    transition: .5s;
+}
+
+.team-item:hover .team-text {
+    margin-top: -60px;
+    height: 160px;
+}
+
+.team-item .team-text .team-social {
+    opacity: 0;
+    transition: .5s;
+}
+
+.team-item:hover .team-text .team-social {
+    opacity: 1;
+}
+
+.team-item .team-social .btn {
+    display: inline-flex;
+    color: var(--primary);
+    background: #FFFFFF;
+    border-radius: 40px;
+}
+
+.team-item .team-social .btn:hover {
+    color: #FFFFFF;
+    background: var(--primary);
+}
+.img-fluid1, .img-fluid2,.img-fluid3, .img-fluid4 {
+    height: 40%;
+    min-height: 350px;
+    width: 103%; 
+    border-radius: 10px; 
+    margin-right: 50% 
+}
+.img-fluid1{
+    background: url('../../../Component/Pictures/d2.jpg') no-repeat center; 
+}
+.img-fluid2{
+    background: url('../../../Component/Pictures/d3.jpg') no-repeat center; 
+}
+.img-fluid3{
+    background: url('../../../Component/Pictures/d4.jpg') no-repeat center; 
+}
+.img-fluid4{
+    background: url('../../../Component/Pictures/d1.jpg') no-repeat center; 
+}

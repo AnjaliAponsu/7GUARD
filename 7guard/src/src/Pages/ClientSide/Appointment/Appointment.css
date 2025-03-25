@@ -1,0 +1,10 @@
+.Boxaa5{  
+    display: flex;     
+    background:url('../../../Component/Pictures/11.jpg'); 
+    height: 350px;
+    box-sizing: border-box;
+    color: rgb(255, 0, 106);
+    background-size: cover;
+    flex: none;
+    object-fit: contain;
+}
