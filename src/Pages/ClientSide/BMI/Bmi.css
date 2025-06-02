@@ -1,0 +1,26 @@
+.heading {
+    font-size: 2rem;
+    color: #ff4081; 
+    font-weight: bold;
+    text-align: center;
+}
+
+.alert-success {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.btn-light-pink {
+    background-color: #c5498d; 
+    border-color: #c5498d; 
+    color: white; 
+  }
+  
+  .btn-light-pink:hover {
+    background-color: #e03570; 
+    border-color: #ffb0d6;
+    color: white;
+  }
+
+  
+  

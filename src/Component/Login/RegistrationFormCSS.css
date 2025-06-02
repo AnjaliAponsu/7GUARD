@@ -1,0 +1,48 @@
+
+.Body1{
+    background-color: rgb(250, 215, 236); 
+
+}
+
+#Body2{
+    background-color:white ;
+}
+#Body3{
+    background-color:white ;
+}
+#Body4{
+    background-color:white ;
+}
+#Body5{
+    background-color:white ;
+}
+#Body6{
+    background-color:white ;
+}
+
+.heading{
+    text-align: center;
+    color:rgb(236, 37, 150);
+    padding-bottom:5%;
+    padding-top: 5%;
+}
+
+.button1{
+    width: 20%;
+    height:25%;
+    border-radius: 5%;
+    margin-left: 80%;
+    background-color:rgb(236, 37, 150);
+    color: white;
+    font-weight: 600;
+
+}
+
+.input-group-text{
+    background-color: rgb(235, 197, 219);
+}
+
+.form-check{
+    padding-left: 10%;
+}
+

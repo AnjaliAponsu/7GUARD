@@ -1,0 +1,57 @@
+.feedback-manager{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+.feedback-from{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedback-from button{
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback-from button:hover{
+    background-color: #218838;
+}
+
+.feedback-list{
+    margin: 20px 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+.feedback-item{
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px 0;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.feedback-item button{
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.feedback-item button:first-child{
+    background-color: #007bff;
+    color: white;
+}
+
+.feedback-item button:last-child:hover{
+    background-color: #dc3545;
+    color:white;
+}
